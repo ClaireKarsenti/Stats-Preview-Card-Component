@@ -46,8 +46,8 @@ main {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  /* animation: zoomInDown; 
-  animation-duration: 2s; */
+  animation: zoomInDown; 
+  animation-duration: 2s;
 }
 
 /*

@@ -5,46 +5,54 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
     <title>
       Frontend Mentor | Stats preview card component | Author: Claire Karsenti
     </title>
   </head>
   <body>
     <main>
-      <section>
-        <div class="wrapper">
-          <!-- IMAGE -->
-          <div class="img">
-            <div class="overlay"><div class="overlay-2"></div></div>
-          </div>
+      <article>
+        <picture>
+          <source
+            media="(min-width: 900px)"
+            srcset="./assets/images/image-header-desktop.jpg"
+          />
 
-          <!-- TEXT -->
-          <div class="text-container">
-            <h1>Get <span>insights</span> that help your business grow.</h1>
-            <p class="description">
-              Discover the benefits of data analytics and make better decisions
-              regarding revenue, customer experience, and overall efficiency.
-            </p>
-            <ul>
-              <li>
-                <h2>10k+</h2>
-                <p class="legend">companies</p>
-              </li>
-              <li>
-                <h2>314</h2>
-                <p class="legend">templates</p>
-              </li>
-              <li>
-                <h2>12M+</h2>
-                <p class="legend">queries</p>
-              </li>
-            </ul>
-          </div>
+          <img
+            src="./assets/images/image-header-mobile.jpg"
+            alt=""
+            aria-hidden="“true”"
+          />
+        </picture>
+
+        <div class="text-container">
+          <h1>Get <span>insights</span> that help your business grow.</h1>
+          <p class="description">
+            Discover the benefits of data analytics and make better decisions
+            regarding revenue, customer experience, and overall efficiency.
+          </p>
+          <ul>
+            <li>
+              <p class="stats">10k+</p>
+              <p class="legend">companies</p>
+            </li>
+            <li>
+              <p class="stats">314</p>
+              <p class="legend">templates</p>
+            </li>
+            <li>
+              <p class="stats">12M+</p>
+              <p class="legend">queries</p>
+            </li>
+          </ul>
         </div>
-      </section>
+      </article>
     </main>
 
-    <!-- FOOTER -->
     <footer>
       <p class="attribution">
         Challenge by

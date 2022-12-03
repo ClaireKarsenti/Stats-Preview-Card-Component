@@ -9,7 +9,9 @@ Frontend Mentor challenges help me improve my coding skills by building realisti
   - [Table of contents](#table-of-contents)
   - [Overview](#overview)
     - [The challenge](#the-challenge)
-    - [Models & my works](#models--my-works)
+    - [Models \& my works](#models--my-works)
+      - [Desktop version](#desktop-version)
+      - [Mobile version](#mobile-version)
     - [Links](#links)
   - [My process](#my-process)
     - [Built with](#built-with)
@@ -26,30 +28,22 @@ Users should be able to:
 
 ### Models & my works
 
-- Desktop version:
+#### Desktop version
 
-Model:
+| Model   | ![desktop version](/assets/design/desktop-design.jpg)           |
+| ------- | --------------------------------------------------------------- |
+| My work | ![desktop version](/assets/my-work/my-work-desktop-version.png) |
 
-![desktop version](/assets/design/desktop-design.jpg)
+#### Mobile version
 
-My work:
-
-![desktop version](/assets/my-work/my-work-desktop-version.png)
-
-- Mobile version
-
-Model:
-
-![mobile version](/assets/design/mobile-design.jpg)
-
-My work:
-
-![mobile version](/assets/my-work/my-work-mobile-version.png)
+| Model                                               | My work                                                       |
+| --------------------------------------------------- | ------------------------------------------------------------- |
+| ![mobile version](/assets/design/mobile-design.jpg) | ![mobile version](/assets/my-work/my-work-mobile-version.png) |
 
 ### Links
 
-- Solution URL: [Code on GitHub](https://github.com/ClaireKarsenti/Frontend-Mentor-Solution-Stats-Preview-Card-Component)
-- Live Site URL: [GitHub Pages Live URL](https://clairekarsenti.github.io/Frontend-Mentor-Solution-Stats-Preview-Card-Component/)
+- Solution URL: [Code on GitHub](https://github.com/ClaireKarsenti/Stats-Preview-Card-Component)
+- Live Site URL: [GitHub Pages Live URL](https://clairekarsenti.github.io/Stats-Preview-Card-Component/)
 
 ## My process
 
@@ -58,7 +52,7 @@ My work:
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- Desktop-first workflow
+- Mobile-first workflow
 
 ### What I learned
 
